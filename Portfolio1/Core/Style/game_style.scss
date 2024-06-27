@@ -1,0 +1,167 @@
+* {
+    margin: auto;
+    padding: auto  ;
+    size: 100%;
+    scroll-behavior: smooth;
+}
+cite a{
+    font-style: italic;
+    color:grey;
+    text-decoration: none;
+}
+
+cite a:hover{
+    filter:drop-shadow(0 0 10px rgb(126, 120, 120))
+}
+body {
+    font-family: 'Arial', sans-serif; 
+    background-color: #4e4e4e; 
+    color: #fff; 
+    margin: 0; 
+    padding: 0; 
+}
+
+header {
+    background-color: #272626; 
+    padding: 20px; 
+}
+
+.button-container {
+    display: inline;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    width: 100%; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.button-container button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px; 
+    flex: 0 1 auto; 
+}
+
+.button-container button:hover{
+    background-color: #8a080e;
+    color:#1e1e1e;
+}
+nav ul {
+    list-style: none; 
+}
+nav ul li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #fff; 
+}
+
+nav ul li a:hover {
+    color: #ff0000; 
+}
+
+main {
+    padding: 20px;
+    margin-top: 20px; 
+    margin-bottom: 100px;
+}
+
+.game-buttons img {
+    align-items: center;
+    margin:8px;
+    width:11%;
+    height:11%;
+}
+
+.game-buttons img:hover {
+    filter:drop-shadow(0 0 20px white);
+}
+
+ul li a img {
+    width:80% ;
+    height:10%;
+    border-radius: 50px;    
+    size:50%
+}
+
+ul li a img:hover {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
+
+h3 {
+    color: #ff0000; 
+    margin-top: 50px;
+}
+
+.welcome {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.welcome h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.categorie {
+    text-align: center;
+}
+
+.categories-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categorie p, .categorie h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+.categorie img {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.categorie img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); 
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.title-games {
+    text-align: center;
+}
+
+button.Return{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;    
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    padding: 10px 20px;
+    background-color: #4a4848;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
